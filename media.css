@@ -1,0 +1,21 @@
+@media only screen and (max-width: 767px) {
+
+    .head{
+        
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        width:  30px;
+       
+        gap: 30px;
+        padding-top: 30px;
+    
+    }  
+    .image img{
+        width: 45%;
+        opacity: 90%;
+        height: 45vh;
+        border-radius: 3%;
+    }
+    
+    }

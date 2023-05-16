@@ -1,21 +1,115 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width:768px){
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    .classify{
+        background-color: whitesmoke;
+        height: 10vh;
+    }
+    .enlarge{
+        margin-left: 9px;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .bold{
+        background-color: rgb(36, 82, 36);
+        height: 12vh;
+        width: 270px;
 
+    }
+    .know{
+        font-size: 30px;
+        margin-left: 50px;
+        padding-top: 70px;
+        font-style: italic;
+    }
+    .enhance{
+        margin-left: 30px;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .mission{
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 10px;
+        background-color: rgb(242, 245, 241);
+        width: 250px;
+        color: forestgreen;
+    }
+    .basket{
+        margin-left: 250px;
+        width: 2%;
+        /* height: 3%; */
+        margin-top: -50px;
+    }
+    .image img{
+        margin-left: 70px;
+        margin-top: -1px;
+        width: 250px;
+        margin-left: 20px;
+    }
+    .image{
+        margin-top:-1px;
+        width: 90px;
+    }
+    .team{
+        font-size: 20px;
+        margin-left:30px ;
+        margin-top: -40px;
+    }
+    .teams img{
+        width: 270px;
+        margin-left: 10px;
+    }
+    .stmt{
+        margin-left: 0px;
+        margin-top: 6px;
+        font-size: 8px;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #Contact {
+        margin-left: 10px;
+    }
+    .info-subtittle {
+        margin-left: 10px;
+    }
+    .footer {
+        flex-wrap: wrap;
+    }
+    .phone,
+    .Email,
+    .Connect {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .dis {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
     .head{
-        
         display: flex;
         flex-direction: column;
         list-style-type: none;
         width:  30px;
-       
         gap: 30px;
         padding-top: 30px;
-    
-    }  
+    }
     .image img{
         width: 45%;
         opacity: 90%;
         height: 45vh;
         border-radius: 3%;
     }
-    
+    }
+    @media only screen and (max-width: 767px) {
+        .container{
+            max-width: 18px;
+            margin: auto;
+        }
     }
